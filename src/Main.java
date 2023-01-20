@@ -30,7 +30,6 @@ public class Main {
 */
         //Домашнее задание
 
-
         Student myStudent = new Student();
         System.out.println(myStudent.name);
         System.out.println(myStudent.surName);
@@ -61,6 +60,7 @@ public class Main {
 
         System.out.println(myTriangle1.x + myTriangle2.z + myTriangle3.c); //Периметр
         System.out.println(myTriangle1.x + myTriangle2.z + myTriangle3.c / 2); //Площадь, Это по формуле Герона
+
 
         Rectangle myRectangle = new Rectangle();
         myRectangle.x = 5;
